@@ -1,6 +1,6 @@
 # Text Embeddings CLI
 
-This repository contains a simple command line interface (CLI) tool for creating and searching text embeddings. The motivation behind the tool is to provide a UNIX-like utility for contextual search: a program that does one thing and does it well.
+This repository contains a simple command line interface (CLI) tool for creating and searching text embeddings without the use of heavyweight solutions and separate vector databases. The motivation behind the tool is to provide a UNIX-like utility for contextual search: a program that does one thing and does it well.
 
 The tool uses a local model for generating embeddings, contrary to querying models hosted on platforms like OpenAI. This design decision has two significant advantages:
 
