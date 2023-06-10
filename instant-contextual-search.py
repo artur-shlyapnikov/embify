@@ -14,7 +14,7 @@ def create_embeddings(model, dir_path, output_file, ext):
         ext = ext.split(",")
 
     # Walk through all files in the directory
-    for root, dirs, files in os.walk(dir_path), desc="Reading Files":
+    for root, dirs, files in os.walk(dir_path):
         for file in files:
             if ext is None or any(file.endswith(e) for e in ext):
                 try:
